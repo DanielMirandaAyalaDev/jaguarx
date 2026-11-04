@@ -195,9 +195,7 @@
   }
 
 
-/* ========================================
-   SECCION CONTACTO - JAGUARX
-======================================== */
+/*  SECCION CONTACTO - JAGUARX */
 
 /* Evita que el Grid del sitio principal
    afecte al formulario dentro del iframe */
@@ -376,9 +374,7 @@ body.pagina-contacto {
 
 
 
-/* ========================================
-   SECCION HERO - JAGUARX
-======================================== */
+/* SECCION HERO - JAGUARX */
 
 /* ---------- Configuracion general ---------- */
 
@@ -506,9 +502,7 @@ body.pagina-contacto {
 }
 
 
-/* ==========================================
-   JAGUARX - FOOTER RESPONSIVE
-========================================== */
+/* JAGUARX - FOOTER RESPONSIVE */
 
 .footer-jaguarx {
     grid-area: footer;
@@ -547,9 +541,7 @@ body.pagina-contacto {
     align-items: start;
 }
 
-/* ==========================================
-   IDENTIDAD DE MARCA
-========================================== */
+/* IDENTIDAD DE MARCA */
 
 .footer-brand {
     min-width: 0;
@@ -585,9 +577,7 @@ body.pagina-contacto {
     margin-bottom: 25px;
 }
 
-/* ==========================================
-   TÍTULOS
-========================================== */
+/* TÍTULOS */
 
 .footer-heading,
 .footer-social h3 {
@@ -611,9 +601,7 @@ body.pagina-contacto {
     background: #fd6102;
 }
 
-/* ==========================================
-   NAVEGACIÓN
-========================================== */
+/* NAVEGACIÓN */
 
 .footer-navigation {
     min-width: 0;
@@ -644,9 +632,7 @@ body.pagina-contacto {
     transform: translateX(5px);
 }
 
-/* ==========================================
-   CONTACTO
-========================================== */
+/*  CONTACTO */
 
 .footer-information {
     min-width: 0;
@@ -688,9 +674,7 @@ body.pagina-contacto {
     color: #fd6102;
 }
 
-/* ==========================================
-   HORARIOS
-========================================== */
+/* HORARIOS */
 
 .footer-hours {
     margin-top: 30px;
@@ -724,9 +708,7 @@ body.pagina-contacto {
     white-space: nowrap;
 }
 
-/* ==========================================
-   REDES SOCIALES
-========================================== */
+/*  REDES SOCIALES */
 
 .footer-social {
     margin-top: 30px;
@@ -773,9 +755,7 @@ body.pagina-contacto {
     object-fit: contain;
 }
 
-/* ==========================================
-   FRANJA INFERIOR
-========================================== */
+/*  FRANJA INFERIOR */
 
 .footer-bottom {
     display: flex;
@@ -805,9 +785,7 @@ body.pagina-contacto {
     letter-spacing: 1px;
 }
 
-/* ==========================================
-   TABLETS Y LAPTOPS PEQUEÑAS
-========================================== */
+/* TABLETS Y LAPTOPS PEQUEÑAS */
 
 @media (max-width: 991px) {
 
@@ -831,9 +809,7 @@ body.pagina-contacto {
 
 }
 
-/* ==========================================
-   CELULARES
-========================================== */
+/*  CELULARES */
 
 @media (max-width: 575px) {
 
@@ -875,9 +851,7 @@ body.pagina-contacto {
 
 }
 
-/* ==========================================
-   CELULARES MUY PEQUEÑOS
-========================================== */
+/*  CELULARES MUY PEQUEÑOS */
 
 @media (max-width: 360px) {
 
