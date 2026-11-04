@@ -1,0 +1,90 @@
+{
+  "name": "jaguarx",
+  "version": "1.0.0",
+  "description": "Tienda de equipo deportivo HYROX",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMirandaAyalaDev/jaguarx.git"
+  
+  },
+  "keywords": [
+    "HYROX",
+    "deporte",
+    "entrenamiento",
+    "equipo deportivo",
+    "noticias"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "noticias": [
+    {
+      "fecha": "2026-11-02",
+      "titulo": "Hunter McIntyre y Bianca Sierra triunfan en HYROX Ciudad de México",
+      "descripcion": "Bianca Sierra ganó la categoría Pro femenil y Hunter McIntyre obtuvo la victoria en la categoría Pro varonil durante la competencia celebrada en el Centro Banamex.",
+      "enlace": "https://mexicotv.mx/news/hyrox-ciudad-de-mexico-2026-resultados"
+    },
+    {
+      "fecha": "2026-11-02",
+      "titulo": "Hamburgo inaugura la nueva temporada Elite Series",
+      "descripcion": "La competencia de Hamburgo marcó el inicio de una nueva etapa de la Elite Series, con Sean Noble y Joanna Wietrzyk como ganadores de sus respectivas carreras.",
+      "enlace": "https://hyroxs.com/news/"
+    },
+    {
+      "fecha": "2026-11-02",
+      "titulo": "HYROX reúne a miles de atletas en Birmingham y Hamburgo",
+      "descripcion": "Los eventos del fin de semana registraron una importante participación de atletas y comunidades deportivas.",
+      "enlace": "https://hyroxs.com/news/"
+    },
+    {
+      "fecha": "2026-11-02",
+      "titulo": "Salt Lake City celebra su primera competencia HYROX",
+      "descripcion": "La ciudad estadounidense recibió por primera vez una competencia HYROX, con una destacada participación en la categoría Pro Doubles femenil.",
+      "enlace": "https://hyroxs.com/news/"
+    },
+    {
+      "fecha": "2026-10-28",
+      "titulo": "La Elite Series regresa con nuevas competencias",
+      "descripcion": "HYROX anunció el regreso de su serie Elite con Hamburgo como primera sede y Londres programada para diciembre.",
+      "enlace": "https://hybridfitnessmedia.com/category/news/"
+    },
+    {
+      "fecha": "2026-10-26",
+      "titulo": "HYROX anuncia su calendario para la temporada 2026-2027",
+      "descripcion": "La nueva temporada contempla competencias internacionales y nuevas oportunidades para atletas de distintas categorías.",
+      "enlace": "https://endurance.biz/2026/industry-news/targeting-2-million-athletes-hyrox-expands-global-calendar-for-2026-27-season/"
+    },
+    {
+      "fecha": "2026-10-26",
+      "titulo": "Hong Kong será sede del Campeonato Mundial HYROX 2027",
+      "descripcion": "La organización anunció a Hong Kong como sede del próximo Campeonato Mundial, previsto para la temporada 2026-2027.",
+      "enlace": "https://hyroxs.com/news/"
+    },
+    {
+      "fecha": "2026-10-26",
+      "titulo": "HYROX y Sweatpals anuncian una colaboración",
+      "descripcion": "La alianza busca impulsar clubes de entrenamiento y fortalecer las comunidades de atletas relacionadas con HYROX.",
+      "enlace": "https://hyroxs.com/news/"
+    },
+    {
+      "fecha": "2026-09-25",
+      "titulo": "HYROX anuncia premios superiores a 2.5 millones de dólares",
+      "descripcion": "La temporada 2026-2027 contempla una bolsa de premios superior a 2.5 millones de dólares para las competencias Elite.",
+      "enlace": "https://hybridfitnessmedia.com/category/news/page/2/"
+    },
+    {
+      "fecha": "2026-09-20",
+      "titulo": "HYROX presenta modificaciones en sus trineos de competición",
+      "descripcion": "La organización introdujo trineos con piezas inferiores reemplazables para mejorar la consistencia de las pruebas de empuje y arrastre.",
+      "enlace": "https://hybridfitnessmedia.com/category/news/page/2/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/DanielMirandaAyalaDev/jaguarx/issues"
+  },
+  "homepage": "https://github.com/DanielMirandaAyalaDev/jaguarx#readme"
+}
