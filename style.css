@@ -504,3 +504,407 @@ body.pagina-contacto {
     }
 
 }
+
+
+/* ==========================================
+   JAGUARX - FOOTER RESPONSIVE
+========================================== */
+
+.footer-jaguarx {
+    grid-area: footer;
+    width: 100%;
+    min-width: 0;
+    background: #080808;
+    color: #ffffff;
+    border-top: 3px solid #fd6102;
+    font-family: system-ui, sans-serif;
+}
+
+/* CONTENEDOR GENERAL */
+
+.footer-container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: clamp(35px, 5vw, 70px)
+             clamp(18px, 4vw, 65px)
+             20px;
+}
+
+/* DISTRIBUCIÓN DE COLUMNAS */
+
+.footer-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.35fr)
+        minmax(140px, 0.65fr)
+        minmax(220px, 1fr);
+
+    gap: clamp(25px, 4vw, 65px);
+
+    width: 100%;
+    align-items: start;
+}
+
+/* ==========================================
+   IDENTIDAD DE MARCA
+========================================== */
+
+.footer-brand {
+    min-width: 0;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+.footer-logo img {
+    display: block;
+    width: clamp(110px, 12vw, 155px);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.footer-slogan {
+    color: #fd6102;
+    font-size: clamp(1.2rem, 2vw, 1.7rem);
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+
+.footer-mission {
+    max-width: 470px;
+    color: #bdbdbd;
+    font-size: clamp(0.85rem, 1vw, 0.95rem);
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+/* ==========================================
+   TÍTULOS
+========================================== */
+
+.footer-heading,
+.footer-social h3 {
+    position: relative;
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin: 0 0 28px;
+    padding-bottom: 13px;
+}
+
+.footer-heading::after,
+.footer-social h3::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 36px;
+    height: 3px;
+    background: #fd6102;
+}
+
+/* ==========================================
+   NAVEGACIÓN
+========================================== */
+
+.footer-navigation {
+    min-width: 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    display: inline-block;
+    color: #bdbdbd;
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    transition: color 0.25s ease,
+                transform 0.25s ease;
+}
+
+.footer-links a:hover {
+    color: #fd6102;
+    transform: translateX(5px);
+}
+
+/* ==========================================
+   CONTACTO
+========================================== */
+
+.footer-information {
+    min-width: 0;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+.contact-label {
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.footer-contact a {
+    width: fit-content;
+    max-width: 100%;
+    color: #bdbdbd;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+
+    transition: color 0.25s ease;
+}
+
+.footer-contact a:hover {
+    color: #fd6102;
+}
+
+/* ==========================================
+   HORARIOS
+========================================== */
+
+.footer-hours {
+    margin-top: 30px;
+    padding-top: 22px;
+    border-top: 1px solid #333333;
+}
+
+.footer-hours h4 {
+    color: #ffffff;
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 17px;
+}
+
+.footer-hours p {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 5px 12px;
+
+    color: #bdbdbd;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.footer-hours time {
+    color: #ffffff;
+    white-space: nowrap;
+}
+
+/* ==========================================
+   REDES SOCIALES
+========================================== */
+
+.footer-social {
+    margin-top: 30px;
+}
+
+.footer-social h3 {
+    font-size: 0.85rem;
+    margin-bottom: 18px;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 42px;
+    height: 42px;
+
+    background: #202020;
+    border: 1px solid #383838;
+    border-radius: 6px;
+
+    transition: background 0.25s ease,
+                border-color 0.25s ease,
+                transform 0.25s ease;
+}
+
+.social-links a:hover {
+    background: #fd6102;
+    border-color: #fd6102;
+    transform: translateY(-4px);
+}
+
+.social-links img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+/* ==========================================
+   FRANJA INFERIOR
+========================================== */
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    width: 100%;
+    margin-top: clamp(35px, 5vw, 65px);
+    padding-top: 22px;
+
+    border-top: 1px solid #333333;
+}
+
+.footer-bottom p {
+    color: #888888;
+    font-size: 0.73rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer-tagline {
+    color: #fd6102;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+/* ==========================================
+   TABLETS Y LAPTOPS PEQUEÑAS
+========================================== */
+
+@media (max-width: 991px) {
+
+    .footer-grid {
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 1fr);
+
+        column-gap: 35px;
+        row-gap: 45px;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+        max-width: 650px;
+    }
+
+    .footer-mission {
+        max-width: 600px;
+    }
+
+}
+
+/* ==========================================
+   CELULARES
+========================================== */
+
+@media (max-width: 575px) {
+
+    .footer-container {
+        padding: 40px 22px 20px;
+    }
+
+    .footer-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 38px;
+    }
+
+    .footer-brand {
+        grid-column: auto;
+    }
+
+    .footer-heading {
+        margin-bottom: 22px;
+    }
+
+    .footer-links {
+        gap: 13px;
+    }
+
+    .footer-contact {
+        gap: 16px;
+    }
+
+    .footer-hours p {
+        justify-content: space-between;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        margin-top: 40px;
+    }
+
+}
+
+/* ==========================================
+   CELULARES MUY PEQUEÑOS
+========================================== */
+
+@media (max-width: 360px) {
+
+    .footer-container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer-slogan {
+        font-size: 1.15rem;
+    }
+
+    .footer-mission {
+        font-size: 0.83rem;
+    }
+
+    .social-links {
+        gap: 9px;
+    }
+
+    .social-links a {
+        width: 38px;
+        height: 38px;
+    }
+
+    .footer-bottom p {
+        font-size: 0.67rem;
+    }
+
+}
