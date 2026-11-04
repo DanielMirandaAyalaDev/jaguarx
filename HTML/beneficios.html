@@ -1,23 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beneficios | JaguarX</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
 </head>
-    <body>
-    <div flexbox="row" justify-content="center" align-items="center">
-        <h1>Beneficios</h1>
-        <p>¡Disfruta de los siguientes beneficios al ser parte de nuestra comunidad!</p>
-        <ul>
-            <li>Descuentos especiales en productos y servicios.</li>
-            <li>Avisos de próximos eventos.</li>
-            <li>Recomendaciones para la mejor elección de productos y servicios.</li>
-            <li>Noticias actualizadas del mundo del HYROX.</li>
-        </ul>
-    </div>
-    </body>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+
+<!-- d-block anula el grid que style.css aplica al body -->
+<body class="d-block p-4">
+
+  <!-- ===== Encabezado ===== -->
+  <header class="text-center mb-4">
+    <h1 class="mb-2">Beneficios</h1>
+    <p class="lead text-white-50 mb-0">
+      ¡Disfruta de los siguientes beneficios al ser parte de nuestra comunidad!
+    </p>
+  </header>
+
+  <!-- ===== Tarjetas de beneficios ===== -->
+  <ul class="list-unstyled row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4 mb-4">
+
+    <li class="col">
+      <article class="card h-100 text-bg-dark border-secondary text-center p-4">
+        <span class="fs-1 mb-2" aria-hidden="true">🏷️</span>
+        <h2 class="h5 text-warning fw-bold">Descuentos</h2>
+        <p class="card-text mb-0">Descuentos especiales en productos y servicios.</p>
+      </article>
+    </li>
+
+    <li class="col">
+      <article class="card h-100 text-bg-dark border-secondary text-center p-4">
+        <span class="fs-1 mb-2" aria-hidden="true">📅</span>
+        <h2 class="h5 text-warning fw-bold">Eventos</h2>
+        <p class="card-text mb-0">Avisos de próximos eventos.</p>
+      </article>
+    </li>
+
+    <li class="col">
+      <article class="card h-100 text-bg-dark border-secondary text-center p-4">
+        <span class="fs-1 mb-2" aria-hidden="true">🎯</span>
+        <h2 class="h5 text-warning fw-bold">Recomendaciones</h2>
+        <p class="card-text mb-0">Recomendaciones para la mejor elección de productos y servicios.</p>
+      </article>
+    </li>
+
+    <li class="col">
+      <article class="card h-100 text-bg-dark border-secondary text-center p-4">
+        <span class="fs-1 mb-2" aria-hidden="true">📰</span>
+        <h2 class="h5 text-warning fw-bold">Noticias</h2>
+        <p class="card-text mb-0">Noticias actualizadas del mundo del HYROX.</p>
+      </article>
+    </li>
+
+  </ul>
+
+  <!-- ===== Llamado a la acción ===== -->
+  <section class="card text-bg-dark border-warning text-center p-4">
+    <h2 class="h4 mb-2">¿Listo para unirte?</h2>
+    <p class="text-white-50 mb-3">Regístrate y empieza a disfrutar de todos los beneficios.</p>
+    <a href="formulario.html" class="btn btn-warning fw-bold align-self-center px-4">Quiero ser parte</a>
+  </section>
+
+</body>
 </html>
