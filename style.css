@@ -193,3 +193,314 @@
     color: var(--naranja);
     opacity: 1;
   }
+
+
+/* ========================================
+   SECCION CONTACTO - JAGUARX
+======================================== */
+
+/* Evita que el Grid del sitio principal
+   afecte al formulario dentro del iframe */
+body.pagina-contacto {
+    display: block;
+    min-height: 100vh;
+    height: auto;
+    background: var(--negro);
+    color: var(--blanco);
+}
+
+/* Seccion principal */
+.contacto-section {
+    background: var(--negro);
+    color: var(--blanco);
+}
+
+/* Encabezado */
+.contacto-kicker {
+    color: var(--naranja);
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.contacto-section h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    letter-spacing: 1px;
+}
+
+.contacto-section h1 span {
+    color: var(--naranja);
+}
+
+.contacto-descripcion {
+    color: #bdbdbd;
+    max-width: 600px;
+    margin: 12px auto 0;
+}
+
+/* Tarjeta de informacion */
+.contacto-info {
+    background: var(--gris-oscuro);
+    border: 1px solid var(--gris-medio);
+    border-left: 4px solid var(--naranja);
+    border-radius: 12px;
+    padding: 35px;
+}
+
+.contacto-info h2 {
+    font-size: 1.8rem;
+}
+
+.contacto-info > p {
+    color: #bdbdbd;
+    line-height: 1.8;
+}
+
+/* Datos de contacto */
+.contacto-dato {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.contacto-icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 42px;
+    height: 42px;
+    background: rgba(253, 97, 2, 0.15);
+    color: var(--naranja);
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+.contacto-dato h6 {
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contacto-dato a {
+    color: #bdbdbd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contacto-dato a:hover {
+    color: var(--naranja);
+}
+
+.contacto-dato p {
+    color: #bdbdbd;
+}
+
+.contacto-frase {
+    border-top: 1px solid var(--gris-medio);
+    padding-top: 20px;
+    color: var(--naranja);
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+}
+
+/* Tarjeta del formulario */
+.contacto-form {
+    background: #111111;
+    border: 1px solid var(--gris-medio);
+    border-radius: 12px;
+    padding: 35px;
+}
+
+.contacto-form > p {
+    color: #bdbdbd;
+}
+
+/* Etiquetas */
+.contacto-form .form-label {
+    color: var(--blanco);
+    font-weight: 600;
+}
+
+/* Campos */
+.contacto-form .form-control {
+    background: #1a1a1a;
+    border: 1px solid #444444;
+    border-radius: 7px;
+    color: var(--blanco);
+    padding: 12px 15px;
+}
+
+.contacto-form .form-control::placeholder {
+    color: #888888;
+}
+
+.contacto-form .form-control:focus {
+    background: #222222;
+    border-color: var(--naranja);
+    color: var(--blanco);
+    box-shadow: 0 0 0 0.2rem rgba(253, 97, 2, 0.15);
+}
+
+/* Boton */
+.btn-enviar {
+    background: var(--naranja);
+    color: var(--blanco);
+    border: none;
+    border-radius: 7px;
+    padding: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background: var(--naranja-oscuro);
+    color: var(--blanco);
+    transform: translateY(-2px);
+}
+
+/* Adaptacion para celulares */
+@media (max-width: 576px) {
+
+    .contacto-info,
+    .contacto-form {
+        padding: 25px 20px;
+    }
+
+    .contacto-section h1 {
+        font-size: 2rem;
+    }
+
+}
+
+
+
+/* ========================================
+   SECCION HERO - JAGUARX
+======================================== */
+
+/* ---------- Configuracion general ---------- */
+
+.pagina-hero {
+    display: block;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: var(--negro);
+    color: var(--blanco);
+}
+
+/* ---------- Contenedor principal ---------- */
+
+.pagina-hero .hero {
+    position: relative;
+    width: 100%;
+    min-height: 580px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url("assets/img/hero-hyrox2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+/* ---------- Capa oscura ---------- */
+
+.pagina-hero .hero-overlay {
+    position: absolute;
+    inset: 0;
+
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.95),
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.15)
+    );
+}
+
+/* ---------- Contenido principal ---------- */
+
+.pagina-hero .hero-content {
+    position: relative;
+    z-index: 1;
+
+    max-width: 650px;
+    padding: 70px 20px;
+}
+
+/* ---------- Subtitulo ---------- */
+
+.pagina-hero .hero-subtitle {
+    color: var(--naranja);
+    font-size: 0.85rem;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+/* ---------- Titulo ---------- */
+
+.pagina-hero .hero-content h1 {
+    color: var(--blanco);
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 20px 0;
+}
+
+.pagina-hero .hero-content h1 span {
+    color: var(--naranja);
+}
+
+/* ---------- Descripcion ---------- */
+
+.pagina-hero .hero-content p {
+    color: var(--gris-claro);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+/* ---------- Boton ---------- */
+
+.pagina-hero .hero-content .btn-solid {
+    display: inline-block;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.pagina-hero .hero-content .btn-solid:hover {
+    transform: translateY(-3px);
+}
+
+/* ---------- Adaptacion para celulares ---------- */
+
+@media (max-width: 576px) {
+
+    .pagina-hero .hero {
+        min-height: 500px;
+        background-position: center;
+    }
+
+    .pagina-hero .hero-content {
+        padding: 40px 15px;
+    }
+
+    .pagina-hero .hero-subtitle {
+        font-size: 0.7rem;
+        letter-spacing: 2px;
+    }
+
+    .pagina-hero .hero-content p {
+        font-size: 1rem;
+    }
+
+}

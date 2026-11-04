@@ -1,11 +1,184 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Contáctanos | JaguarX</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body>
-    <h1>Página Formulario</h1>
+
+<body class="pagina-contacto">
+
+    <section id="contacto" class="contacto-section py-5">
+
+        <div class="container">
+
+            <!-- Encabezado -->
+            <div class="text-center mb-5">
+                <span class="contacto-kicker">JAGUARX / CUSTOMER SUPPORT</span>
+
+                <h1 class="fw-bold mt-2">
+                    HABLEMOS DE <span>RENDIMIENTO.</span>
+                </h1>
+
+                <p class="contacto-descripcion">
+                    ¿Tienes alguna duda? Estamos aquí para ayudarte.
+                    Escríbenos y forma parte de la comunidad JaguarX.
+                </p>
+            </div>
+
+            <div class="row g-4 align-items-stretch">
+
+                <!-- Información de contacto -->
+                <div class="col-lg-5">
+
+                    <div class="contacto-info h-100">
+
+                        <h2 class="fw-bold mb-3">
+                            Estamos para ayudarte.
+                        </h2>
+
+                        <p class="mb-4">
+                            Queremos que tengas la mejor experiencia
+                            con nuestros productos. Contáctanos para
+                            resolver tus dudas sobre pedidos,
+                            productos o equipamiento deportivo.
+                        </p>
+
+                        <div class="contacto-dato">
+                            <span class="contacto-icono">✉</span>
+                            <div>
+                                <h6>Correo electrónico</h6>
+                                <a href="mailto:contacto@jaguarx.com">
+                                    contacto@jaguarx.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contacto-dato">
+                            <span class="contacto-icono">☎</span>
+                            <div>
+                                <h6>Teléfono / WhatsApp</h6>
+                                <a href="tel:+525532326095">
+                                    +52 5532 326095
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contacto-dato">
+                            <span class="contacto-icono">◎</span>
+                            <div>
+                                <h6>Redes sociales</h6>
+                                <p class="mb-0">
+                                    Síguenos y conoce nuestras novedades.
+                                </p>
+                                <a href="#" class="contacto-red">
+                                    Instagram
+                                </a>
+                                <span class="mx-1">|</span>
+                                <a href="#" class="contacto-red">
+                                    Facebook
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contacto-frase mt-4">
+                            <p class="mb-0">
+                                "SUPERA TUS LÍMITES.
+                                ALCANZA TU SIGUIENTE NIVEL."
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Formulario -->
+                <div class="col-lg-7">
+
+                    <div class="contacto-form h-100">
+
+                        <h2 class="fw-bold mb-2">
+                            Envíanos un mensaje
+                        </h2>
+
+                        <p class="mb-4">
+                            Completa el siguiente formulario.
+                            Nos encantará escucharte.
+                        </p>
+
+                        <form>
+
+                            <!-- Nombre -->
+                            <div class="mb-4">
+                                <label for="nombre" class="form-label">
+                                    Nombre completo
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="nombre"
+                                    placeholder="Escribe tu nombre"
+                                    required
+                                >
+                            </div>
+
+                            <!-- Correo -->
+                            <div class="mb-4">
+                                <label for="correo" class="form-label">
+                                    Correo electrónico
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="correo"
+                                    placeholder="ejemplo@correo.com"
+                                    required
+                                >
+                            </div>
+
+                            <!-- Comentarios -->
+                            <div class="mb-4">
+                                <label for="comentarios" class="form-label">
+                                    ¿Cómo podemos ayudarte?
+                                </label>
+
+                                <textarea
+                                    class="form-control"
+                                    id="comentarios"
+                                    rows="5"
+                                    placeholder="Escribe aquí tus comentarios..."
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <!-- Botón -->
+                            <button
+                                type="submit"
+                                class="btn btn-enviar w-100"
+                            >
+                                ENVIAR MENSAJE →
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
 </body>
 </html>
