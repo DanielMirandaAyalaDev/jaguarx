@@ -108,7 +108,7 @@ window.DATOS_PRODUCTOS = {
     ]
   };
 
-  const RUTA_RAIZ = "../"; // las imágenes vienen como "img/archivo.png", relativas a la raíz del proyecto
+  const RUTA_RAIZ = "../";
   const CLAVE_CARRITO = "jaguarx-carrito"; // nombre con el que se guarda el carrito en el navegador
   
   const formatoPrecio = new Intl.NumberFormat("es-MX", { style: "currency", currency: "MXN" });
